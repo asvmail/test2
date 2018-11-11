@@ -1,0 +1,49 @@
+﻿html {
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    background: url(images/3869545523546853463943.png);
+} 
+
+
+/* font pragmatica */
+
+@font-face {
+	font-family: 'pragmatica';
+	font-style: normal;
+	font-weight: 300;
+	src:	url(fonts/pragmatica-regular.woff) format('woff'),
+			url(fonts/pragmatica-regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'pragmatica-light';
+	font-style: normal;
+	font-weight: 400;
+	src:	url(fonts/pragmatica-light.woff) format('woff'),
+			url(fonts/pragmatica-light.ttf) format('truetype');
+}
+
+
+
+.box{
+	width:500px;
+	height:250px;
+  left:-webkit-calc( 50% - 250px );
+  top:20%;
+	position:absolute;
+	border-radius:5px;
+	border:1px solid rgba(255, 255, 255, 0.82);
+	padding-top:100px;
+    line-height: 50px;
+	text-align: center;
+  background: rgba(255, 255, 255, 0.82);
+
+
+  }
